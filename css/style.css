@@ -58,7 +58,6 @@ body{
     background-repeat: no-repeat;
     border: 1px solid black;
     background-position: right;
-    background-color: red;
     
 }
 
@@ -82,27 +81,31 @@ body{
 
 .blog{
     width: 100%;
-    height: 70vh;
-    margin-top: 20%;
-    border: 1px solid black;
-    background-color: red;
+    height: 100vh;
+    margin-top: 20.5%;
+    border: 1px solid red;
 }
 
 .blog_content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    gap: 20px;
     height: 100%;
 }
 
 .blog_item{
     width: 100%;
     border: 1px solid black;
-    height: 100%;
+    height: 84vh;
+    margin-top: 8vh;
 }
 
-.blog_item img {
-    height: 100%;
+.blog_img{
+    width:100% ;
+    height: 100;
+    position:relative ;
 }
+
 
 .blog_item h1{
     text-transform: uppercase;
